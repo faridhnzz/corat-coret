@@ -39,3 +39,4 @@ welcome.indihome.co.id
 upoint.id
 uzone.id
 ```
+Adblock rules : [Internet Positif](https://hostlist.yuiistic.my.id/add/internet-positif.txt)
