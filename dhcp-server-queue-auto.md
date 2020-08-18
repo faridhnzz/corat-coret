@@ -1,3 +1,4 @@
+```
 {
 :local queueName "WIFI - $leaseActMAC";
 :if ($leaseBound = "1") do={
@@ -6,3 +7,4 @@
 /queue simple remove $queueName
 }
 }
+```
