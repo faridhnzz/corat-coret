@@ -1,3 +1,4 @@
+```
 <?php return array(
 ':smile:' => "\u{1f604}",
 ':smiley:' => "\u{1f603}",
@@ -1338,3 +1339,4 @@
 
 ':box_drawing_vertical:' => "\u{2520}"
 ); ?>
+```
