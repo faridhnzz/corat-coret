@@ -1,0 +1,230 @@
+bind_host: 0.0.0.0
+bind_port: 80
+users:
+- name: admin
+  password: $2a$10$/21gh3FIqqgyz02gRl2eBuoRmhqv32LcOvnLIcgB9cNijEdDGanS6
+http_proxy: ""
+language: en
+rlimit_nofile: 0
+debug_pprof: false
+web_session_ttl: 720
+dns:
+  bind_host: 0.0.0.0
+  port: 53
+  statistics_interval: 1
+  querylog_enabled: true
+  querylog_file_enabled: true
+  querylog_interval: 7
+  querylog_size_memory: 1000
+  anonymize_client_ip: false
+  protection_enabled: true
+  blocking_mode: default
+  blocking_ipv4: ""
+  blocking_ipv6: ""
+  blocked_response_ttl: 10
+  parental_block_host: family-block.dns.adguard.com
+  safebrowsing_block_host: standard-block.dns.adguard.com
+  ratelimit: 0
+  ratelimit_whitelist: []
+  refuse_any: true
+  upstream_dns:
+  - 45.90.28.250
+  - 45.90.30.250
+  bootstrap_dns:
+  - 9.9.9.10
+  - 1.1.1.1
+  - 149.112.112.10
+  - 2620:fe::10
+  - 2620:fe::fe:10
+  all_servers: true
+  fastest_addr: false
+  allowed_clients: []
+  disallowed_clients: []
+  blocked_hosts: []
+  cache_size: 4194304
+  cache_ttl_min: 3600
+  cache_ttl_max: 86400
+  bogus_nxdomain: []
+  aaaa_disabled: false
+  enable_dnssec: false
+  edns_client_subnet: true
+  filtering_enabled: true
+  filters_update_interval: 1
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  safebrowsing_cache_size: 1048576
+  safesearch_cache_size: 1048576
+  parental_cache_size: 1048576
+  cache_time: 30
+  rewrites: []
+  blocked_services: []
+tls:
+  enabled: false
+  server_name: ""
+  force_https: false
+  port_https: 443
+  port_dns_over_tls: 853
+  allow_unencrypted_doh: false
+  strict_sni_check: false
+  certificate_chain: ""
+  private_key: ""
+  certificate_path: ""
+  private_key_path: ""
+filters:
+- enabled: true
+  url: https://filters.adtidy.org/extension/chromium/filters/2.txt
+  name: AdGuard DNS filter
+  id: 1
+- enabled: true
+  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
+  name: MalwareDomainList.com Hosts List
+  id: 4
+- enabled: true
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  name: StevenBlack
+  id: 1596277455
+- enabled: true
+  url: https://mirror1.malwaredomains.com/files/justdomains
+  name: malwaredomains.com
+  id: 1596277456
+- enabled: true
+  url: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+  name: simple_ad
+  id: 1596277458
+- enabled: true
+  url: https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt
+  name: blocklistproject-ads
+  id: 1596277459
+- enabled: true
+  url: https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
+  name: blocklistproject-crypto
+  id: 1596277460
+- enabled: true
+  url: https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt
+  name: blocklistproject-malware
+  id: 1596277461
+- enabled: true
+  url: https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt
+  name: blocklistproject-phishing
+  id: 1596277462
+- enabled: true
+  url: https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt
+  name: blocklistproject-gambling
+  id: 1596277463
+- enabled: true
+  url: https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
+  name: antipopads
+  id: 1596277464
+- enabled: true
+  url: https://blocklist.cyberthreatcoalition.org/vetted/domain.txt
+  name: cyberthreatcoalition.org
+  id: 1596277465
+- enabled: true
+  url: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+  name: Threat-Intel
+  id: 1596277468
+- enabled: true
+  url: https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+  name: toxic_domains_whole
+  id: 1596277469
+- enabled: true
+  url: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+  name: Spam404
+  id: 1596277470
+- enabled: true
+  url: https://block.energized.pro/extensions/regional/formats/hosts
+  name: regional
+  id: 1596277471
+- enabled: true
+  url: https://managedsentinel.com/downloads/covid19_domains.txt
+  name: covid19_domains
+  id: 1596277472
+- enabled: true
+  url: https://rescure.fruxlabs.com/covid.txt
+  name: covid
+  id: 1596277473
+- enabled: true
+  url: https://kriskintel.com/ktip_corona.txt
+  name: ktip_corona
+  id: 1596277474
+- enabled: true
+  url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/gambling/domains
+  name: ut1-blacklists
+  id: 1596438618
+- enabled: true
+  url: https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts
+  name: Sinfonietta
+  id: 1596438619
+- enabled: true
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Dead/hosts
+  name: StevenBlack \ add.Dead
+  id: 1596438620
+- enabled: true
+  url: https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts_without_controversies.txt
+  name: KADhosts
+  id: 1596438621
+- enabled: true
+  url: https://phishing.army/download/phishing_army_blocklist.txt
+  name: phishing army
+  id: 1596438622
+- enabled: true
+  url: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+  name: notrack-malware
+  id: 1596438623
+- enabled: true
+  url: https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
+  name: Badd-Boyz-Hosts
+  id: 1596438625
+- enabled: true
+  url: https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
+  name: The-Big-List-of-Hacked-Malware-Web-Sites
+  id: 1596438626
+- enabled: true
+  url: https://joewein.net/dl/bl/dom-bl.txt
+  name: dom-bl
+  id: 1596438628
+- enabled: true
+  url: https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains
+  name: spyware
+  id: 1596438629
+- enabled: true
+  url: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+  name: adblock-nocoin-list
+  id: 1596438630
+- enabled: true
+  url: https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+  name: CoinBlockerLists
+  id: 1596438631
+- enabled: true
+  url: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
+  name: ABPindo
+  id: 1596438632
+whitelist_filters:
+- enabled: true
+  url: https://raw.githubusercontent.com/yuimatcha/hostlist/master/add/whitelist-rex.txt
+  name: WH-Kyu
+  id: 1596277475
+- enabled: true
+  url: https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt
+  name: Energized Protection - unblock
+  id: 1596277477
+user_rules: []
+dhcp:
+  enabled: false
+  interface_name: ""
+  gateway_ip: ""
+  subnet_mask: ""
+  range_start: ""
+  range_end: ""
+  lease_duration: 86400
+  icmp_timeout_msec: 1000
+clients: []
+log_compress: false
+log_localtime: false
+log_max_backups: 0
+log_max_size: 100
+log_max_age: 3
+log_file: ""
+verbose: false
+schema_version: 6
