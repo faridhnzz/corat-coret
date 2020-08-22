@@ -10,4 +10,5 @@ rm -rf /var/lib/docker
 * Remove Network Docker
 ```
 ip link delete docker0
+ip link delete docker_gwbridge
 ```
