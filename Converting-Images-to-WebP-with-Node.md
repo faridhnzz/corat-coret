@@ -1,4 +1,12 @@
-First download [Node.js](https://nodejs.org/en/download/) 
+## Table of Contents
+- [Usage](#usage)
+- [Plugin](#)
+  - [imagemin-webp](#imagemin-webp)
+  
+
+First download [Node.js](https://nodejs.org/en/download/)
+
+# Imagemin-webp
 
 * Install Plugin imagemin
 ```
@@ -35,6 +43,7 @@ node webp.js
 
 ------------------------------------------------------------------------------------------------------
 
+## Usage
 * Using WebP in HTML
 ```
 <!-- Nothing possibly can go wrong with this, right? -->
