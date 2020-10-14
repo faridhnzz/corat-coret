@@ -27,13 +27,13 @@ imagemin([JPEGImages], outputFolder, {
 });
 ```
 You can experiment with even more settings at the [imagemin-webp plugin page](https://www.npmjs.com/package/imagemin-webp)
+
 Run the script :
 ```
 node webp.js
 ```
 
-==================================================================================================================================
-==================================================================================================================================
+
 
 * Using WebP in HTML
 ```
