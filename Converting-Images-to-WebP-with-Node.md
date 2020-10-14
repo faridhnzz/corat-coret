@@ -5,7 +5,7 @@ First download [Node.js](https://nodejs.org/en/download/)
 npm install imagemin imagemin-webp
 ```
 
-Open text editor and create a new file named webp.js
+* Open text editor and create a new file named webp.js
 
 ```
 var imagemin = require("imagemin"),    // The imagemin module.
@@ -28,12 +28,12 @@ imagemin([JPEGImages], outputFolder, {
 ```
 You can experiment with even more settings at the [imagemin-webp plugin page](https://www.npmjs.com/package/imagemin-webp)
 
-Run the script :
+* Run the script :
 ```
 node webp.js
 ```
 
-
+------------------------------------------------------------------------------------------------------
 
 * Using WebP in HTML
 ```
