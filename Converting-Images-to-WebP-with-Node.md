@@ -2,12 +2,13 @@
 
 ## Table of Contents
 - [Plugin](#)
-  - [imagemin-webp](#imagemin-webp)
-- [Usage](#usage)
+  - [Imagemin-webp](#imagemin-webp)
+  - [Compress-images](#compress-images)
+- [how to use it on the website](#usage)
 
 # Imagemin-webp
 
-* Install Plugin imagemin
+* Install Plugin Imagemin
 ```
 npm install imagemin imagemin-webp
 ```
@@ -33,12 +34,47 @@ imagemin([JPEGImages], outputFolder, {
   })]
 });
 ```
-You can experiment with even more settings at the [imagemin-webp plugin page](https://www.npmjs.com/package/imagemin-webp)
+more settings at the [imagemin-webp plugin page](https://www.npmjs.com/package/imagemin-webp)
 
 * Run the script :
 ```
 node webp.js
 ```
+Source [css-tricks](https://css-tricks.com/using-webp-images/)
+
+## Compress-images
+
+* Install Plugin Compress-images
+```
+npm install compress-images --save-dev
+```
+
+```
+const compress_images = require("compress-images");
+ 
+function MyFun() {
+  compress_images(
+    "src/img/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}",
+    "build/img/",
+    { compress_force: false, statistic: true, autoupdate: true },
+    false,
+    { jpg: { engine: "webp", command: ["-quality", "85"] } },
+    { png: { engine: "webp", command: ["--quality=85", "-o"] } },
+    { svg: { engine: "svgo", command: "--multipass" } },
+    {
+      gif: { engine: "gifsicle", command: ["--colors", "64", "--use-col=web"] },
+    },
+    function (err, completed) {
+      if (completed === true) {
+        // Doing something.
+      }
+    }
+  );
+}
+```
+More settings at the [Compress-images](https://www.npmjs.com/package/compress-images)
+
+
 
 ------------------------------------------------------------------------------------------------------
 
@@ -60,6 +96,3 @@ node webp.js
   background-image: url("image.webp");
 }
 ```
-
-
-Source [Click](https://css-tricks.com/using-webp-images/)
