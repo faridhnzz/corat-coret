@@ -13,4 +13,4 @@ Tempat corat-coret data sampah
 - [NextDns Update IP Automatically Mikrotik](https://github.com/yuimatcha/corat-coret/blob/master/nextdns-update-ip-automatically-mikrotik.md)
 - [Monitoring Client PPP Mikrotik](https://github.com/yuimatcha/corat-coret/blob/master/Monitoring-Client-PPTP-PPPoE-l2tp-sstp-ovpn.md)
 - [Converting Images to WebP with Node.js](https://github.com/yuimatcha/corat-coret/blob/master/Converting-Images-to-WebP-with-Node.md)
-
+- [Remove Extension .html/.php in Htaccess](https://github.com/yuimatcha/corat-coret/blob/master/remove.html.php-Htaccess.md)
