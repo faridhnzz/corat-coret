@@ -26,3 +26,4 @@ Mikrotik
 :local last [/ppp secret get [find name=$nama] last];
 /tool fetch url="https://api.telegram.org/bot$bot/sendMessage?chat_id=$chat&text=LOGOUT \E2\9D\8C%0A---------------------------%0AUser : $user%0AProfile : $profile%0AService : $service%0A---------------------------%0ALast Logout : $last%0A" mode=http keep-result=no;
 ```
+[Back To Home](https://github.com/yuimatcha/corat-coret)
