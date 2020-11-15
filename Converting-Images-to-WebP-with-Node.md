@@ -96,3 +96,5 @@ More settings at the [Compress-images](https://www.npmjs.com/package/compress-im
   background-image: url("image.webp");
 }
 ```
+
+[Back To Home](https://github.com/yuimatcha/corat-coret)
