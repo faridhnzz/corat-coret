@@ -22,3 +22,5 @@ RewriteRule ^(.*)$ $1.php
 ```
 
 Source : [Domainesia](https://www.domainesia.com/panduan/cara-menghapus-ekstensi-html-melalui-htaccess) | [phpmu(dot)com](https://www.members.phpmu.com/forum/read/bagaimana-cara-membuat-website-tanpa-url-php-ataupun-html)
+
+[Back To Home](https://github.com/yuimatcha/corat-coret)
