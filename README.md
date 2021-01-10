@@ -23,4 +23,6 @@ Tempat corat-coret data sampah
 - [Remove Extension .html/.php in Htaccess](https://github.com/yuimatcha/corat-coret/blob/master/Remove-Ekstensi-html-php-Htaccess.md)
 
 # Backup-Config
+- [htaccess](https://github.com/yuimatcha/corat-coret/blob/master/htaccess.md)
+- [Unbound.conf](https://github.com/yuimatcha/corat-coret/blob/master/unbound-dns-conf.md)
 
