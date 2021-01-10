@@ -6,7 +6,7 @@ server:
     # BASIC SETTINGS
     ###########################################################################
     # Set the working directory for the program.
-    #directory: "/opt/unbound/etc/unbound"
+    #directory: "/etc/unbound"
     
     # Drop user  privileges after  binding the port.
     #username: "unbound"
