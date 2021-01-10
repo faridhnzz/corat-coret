@@ -6,8 +6,9 @@ Tempat corat-coret data sampah
 - [Corat-Coret](#Corat-Coret)
 - [Backup-Config](#Backup-Config)
 
-=========================================================================================================
-=========================================================================================================
+=============================================
+
+=============================================
 
 # Corat-Coret
 - [Internet Positif](https://github.com/yuimatcha/corat-coret/blob/master/internet-positif.md)
