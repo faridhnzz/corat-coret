@@ -5,6 +5,27 @@ server:
     ###########################################################################
     # BASIC SETTINGS
     ###########################################################################
+    # Set the working directory for the program.
+    #directory: "/opt/unbound/etc/unbound"
+    
+    # Drop user  privileges after  binding the port.
+    #username: "unbound"
+    
+    # Listen to for queries from clients and answer from this network interface
+    # and port.
+    interface: 127.0.0.1
+    port: 5353
+    do-ip4: yes
+    do-udp: yes
+    do-tcp: yes
+
+    # May be set to yes if you have IPv6 connectivity
+    do-ip6: no
+
+    # You want to leave this to no unless you have *native* IPv6. With 6to4 and
+    # Terredo tunnels your web browser should favor IPv4 for the same reasons
+    prefer-ip6: no
+    
     # Time to live maximum for RRsets and messages in the cache. If the maximum
     # kicks in, responses to clients still get decrementing TTLs based on the
     # original (larger) values. When the internal TTL expires, the cache item
@@ -20,9 +41,6 @@ server:
     # the cache does not match up with the actual data any more.
     cache-min-ttl: 300
 
-    # Set the working directory for the program.
-    # directory: "/opt/unbound/etc/unbound"
-
     # RFC 6891. Number of bytes size to advertise as the EDNS reassembly buffer
     # size. This is the value put into datagrams over UDP towards peers.
     # 4096 is RFC recommended. 1472 has a reasonable chance to fit within a
@@ -32,27 +50,9 @@ server:
     # the amount of TCP fallback generated is excessive.
     edns-buffer-size: 1472
 
-    # Listen to for queries from clients and answer from this network interface
-    # and port.
-    interface: 127.0.0.1
-    port: 5353
-    do-ip4: yes
-    do-udp: yes
-    do-tcp: yes
-
-    # May be set to yes if you have IPv6 connectivity
-    do-ip6: no
-
-    # You want to leave this to no unless you have *native* IPv6. With 6to4 and
-    # Terredo tunnels your web browser should favor IPv4 for the same reasons
-    prefer-ip6: no
-
     # Rotates RRSet order in response (the pseudo-random number is taken from
     # the query ID, for speed and thread safety).
     rrset-roundrobin: yes
-
-    # Drop user  privileges after  binding the port.
-    # username: "_unbound"
 
     # Use this only when you downloaded the list of primary root servers!
     # If you use the default dns-root-data package, unbound will find it automatically
@@ -299,7 +299,7 @@ server:
     ###########################################################################
 
     # Include file for local-data and local-data-ptr
-    # include: /opt/unbound/etc/unbound/a-records.conf
+    # include: /etc/unbound/a-records.conf
 
     ###########################################################################
     # FORWARD ZONE
@@ -320,9 +320,11 @@ server:
         forward-addr: 45.90.28.250@853
         forward-addr: 45.90.30.250@853
 
-        #forward-addr: 127.0.0.1@5353
+    ###########################################################################
+    # REMOTE
+    ###########################################################################
 
-remote-control:
-    control-enable: yes
+    remote-control:
+        control-enable: yes
     
 ```
