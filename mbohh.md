@@ -13,6 +13,8 @@ ubah dibagian site-availabe "nano /etc/apache2/site-availabe/000-default.conf".
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 		
+		########## Tambahkan Config berikut #############
+		
 		<Directory /var/www/html>
 			AuthName "Login Dulu Sebelum Masuk Website" --> Ubah sesuai keiginan
 			AuthType Basic
