@@ -1,16 +1,13 @@
-# Corat Coret
-
-Tempat corat-coret data sampah
+Tempat corat-coret data biar gak lupa
 
 ## Table of Contents
-- [Corat-Coret](#Corat-Coret)
-- [Backup-Config](#Backup-Config)
 
-=============================================
+- [Table of Contents](#table-of-contents)
+  - [Corat-Coret](#corat-coret)
+  - [Backup-Config](#backup-config)
 
-=============================================
+### Corat-Coret
 
-# Corat-Coret
 - [Internet Positif](https://github.com/yuimatcha/corat-coret/blob/master/internet-positif.md)
 - [Github IP For DNS](https://github.com/yuimatcha/corat-coret/blob/master/github-ip-for-dns.md)
 - [Uninstall Docker Package](https://github.com/yuimatcha/corat-coret/blob/master/uninstall-docker-package.md)
@@ -22,7 +19,7 @@ Tempat corat-coret data sampah
 - [Converting Images to WebP with Node.js](https://github.com/yuimatcha/corat-coret/blob/master/Converting-Images-to-WebP-with-Node.md)
 - [Remove Extension .html/.php in Htaccess](https://github.com/yuimatcha/corat-coret/blob/master/Remove-Ekstensi-html-php-Htaccess.md)
 
-# Backup-Config
+### Backup-Config
+
 - [htaccess](https://github.com/yuimatcha/corat-coret/blob/master/htaccess.md)
 - [Unbound.conf](https://github.com/yuimatcha/corat-coret/blob/master/unbound-dns-conf.md)
-

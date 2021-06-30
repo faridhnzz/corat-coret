@@ -1,4 +1,3 @@
-```
 <ifModule mod_deflate.c>
   <filesMatch "\.(css|js|x?html?|php|ttf|otf|woff2|woff|font)$">
     SetOutputFilter DEFLATE
@@ -44,4 +43,3 @@
   Header unset Last-Modified
 </ifModule>
 FileETag None
-```
