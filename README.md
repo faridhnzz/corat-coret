@@ -8,8 +8,9 @@ Tempat corat-coret data biar gak lupa
 
 ### Corat-Coret
 
-- [Internet Positif](https://github.com/yuimatcha/corat-coret/blob/master/internet-positif.md)
-- [Github IP For DNS](https://github.com/yuimatcha/corat-coret/blob/master/github-ip-for-dns.md)
+- [DNS Health Check Mikrotik](https://github.com/yuimatcha/corat-coret/blob/master/Corat-Core/2020-08-18-dns-health-check.md)
+- [Github IP For DNS](https://github.com/yuimatcha/corat-coret/blob/master/Corat-Core/2020-08-18-github-ip-for-dns.md)
+- [IP Internet Positif](Corat-Core/2020-08-18-internet-positif.md)
 - [Uninstall Docker Package](https://github.com/yuimatcha/corat-coret/blob/master/uninstall-docker-package.md)
 - [Docker Cheatsheet](https://github.com/yuimatcha/corat-coret/blob/master/docker-cheatsheet.md)
 - [DNS Health Check Mikrotik](https://github.com/yuimatcha/corat-coret/blob/master/dns-health-check.md)
