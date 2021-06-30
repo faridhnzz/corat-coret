@@ -1,4 +1,4 @@
-Tempat corat-coret data biar gak lupa
+Tempat Corat-Corett data biar gak lupa
 
 ## Table of Contents
 
@@ -8,19 +8,19 @@ Tempat corat-coret data biar gak lupa
 
 ### Corat-Coret
 
-- [DNS Health Check Mikrotik](Corat-Core/2020-08-18-dns-health-check.md)
-- [IP Github For DNS](Corat-Core/2020-08-18-github-ip-for-dns.md)
-- [IP Internet Positif](Corat-Core/2020-08-18-internet-positif.md)
-- [NextDns Update IP Automatically Mikrotik](Corat-Core/2020-08-18-nextdns-update-ip-automatically-mikrotik.md)
-- [Emoji.php](Corat-Core/2020-08-19-emoji.php.md)
-- [Dhcp Server Queue Auto Mikrotik](Corat-Core/2020-08-20-dhcp-server-queue-auto.md)
-- [Docker Cheatsheet](Corat-Core/2020-08-22-docker-cheatsheet.md)
-- [Uninstall Docker Package Linux](Corat-Core/2020-08-22-uninstall-docker-package.md)
-- [Convert Images to WebP with Node.js](Corat-Core/2020-11-15-Converting-Images-to-WebP-with-Node.md)
-- [Monitoring Client PPP Mikrotik](Corat-Core/2020-11-15-Monitoring-Client-PPTP-PPPoE-l2tp-sstp-ovpn.md)
-- [Remove Extension .html/.php Di Htaccess](Corat-Core/2020-12-08-Remove-Ekstensi-html-php-Htaccess.md)
-- [Mengarahkan Folder Domain Utama ke Folder Lain](Corat-Core/2020-12-10-Mengarahkan-Domain-Utama-ke-Folder-Lain.md)
-- [Iframe Full Page](Corat-Core/2021-06-30-iframe-full-page.md)
+- [DNS Health Check Mikrotik](Corat-Coret/2020-08-18-dns-health-check.md)
+- [IP Github For DNS](Corat-Coret/2020-08-18-github-ip-for-dns.md)
+- [IP Internet Positif](Corat-Coret/2020-08-18-internet-positif.md)
+- [NextDns Update IP Automatically Mikrotik](Corat-Coret/2020-08-18-nextdns-update-ip-automatically-mikrotik.md)
+- [Emoji.php](Corat-Coret/2020-08-19-emoji.php.md)
+- [Dhcp Server Queue Auto Mikrotik](Corat-Coret/2020-08-20-dhcp-server-queue-auto.md)
+- [Docker Cheatsheet](Corat-Coret/2020-08-22-docker-cheatsheet.md)
+- [Uninstall Docker Package Linux](Corat-Coret/2020-08-22-uninstall-docker-package.md)
+- [Convert Images to WebP with Node.js](Corat-Coret/2020-11-15-Converting-Images-to-WebP-with-Node.md)
+- [Monitoring Client PPP Mikrotik](Corat-Coret/2020-11-15-Monitoring-Client-PPTP-PPPoE-l2tp-sstp-ovpn.md)
+- [Remove Extension .html/.php Di Htaccess](Corat-Coret/2020-12-08-Remove-Ekstensi-html-php-Htaccess.md)
+- [Mengarahkan Folder Domain Utama ke Folder Lain](Corat-Coret/2020-12-10-Mengarahkan-Domain-Utama-ke-Folder-Lain.md)
+- [Iframe Full Page](Corat-Coret/2021-06-30-iframe-full-page.md)
 
 ### Backup-Config
 
