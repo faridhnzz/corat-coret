@@ -21,6 +21,8 @@ Tempat Corat-Corett data biar gak lupa
 - [Remove Extension .html/.php Di Htaccess](Corat-Coret/2020-12-08-Remove-Ekstensi-html-php-Htaccess.md)
 - [Mengarahkan Folder Domain Utama ke Folder Lain](Corat-Coret/2020-12-10-Mengarahkan-Domain-Utama-ke-Folder-Lain.md)
 - [Iframe Full Page](Corat-Coret/2021-06-30-iframe-full-page.md)
+- [Deploying docker container Nginx and Jekyll to Heroku](Corat-Coret/2021-07-04-Deploying-docker-container-Nginx-and-Jekyll-to-Heroku.md)
+- [Nginx Reverse Proxy on Heroku](Corat-Coret/2021-07-04-Nginx-Reverse-Proxy-on-Heroku.md)
 
 ### Backup-Config
 
