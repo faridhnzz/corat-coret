@@ -119,6 +119,8 @@ server {
 }
 ```
 
+Source: [Gist](https://gist.github.com/geekforbrains/01df7c31fd62f84f453b8bc22217f3c6)
+
 ### And others
 
 - [Nginx Routing on Heroku](https://greg.nokes.name/2020/02/27/nginx-routing-on-heroku/)
