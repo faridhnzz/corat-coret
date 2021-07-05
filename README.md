@@ -1,12 +1,6 @@
 Tempat Corat-Corett data biar gak lupa
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-  - [Corat-Coret](#corat-coret)
-  - [Backup-Config](#backup-config)
-
-### Corat-Coret
+### Corat Coret
 
 - [DNS Health Check Mikrotik](Corat-Coret/2020-08-18-dns-health-check.md)
 - [IP Github For DNS](Corat-Coret/2020-08-18-github-ip-for-dns.md)
@@ -23,10 +17,3 @@ Tempat Corat-Corett data biar gak lupa
 - [Iframe Full Page](Corat-Coret/2021-06-30-iframe-full-page.md)
 - [Deploying docker container Nginx and Jekyll to Heroku](Corat-Coret/2021-07-04-Deploying-docker-container-Nginx-and-Jekyll-to-Heroku.md)
 - [Nginx Reverse Proxy on Heroku](Corat-Coret/2021-07-04-Nginx-Reverse-Proxy-on-Heroku.md)
-
-### Backup-Config
-
-- [my-AdGuardHome.yaml](Backup-config/AdGuardHome.yaml)
-- [gaktau.htaccess](Backup-config/gaktau.htaccess)
-- [unbound-dns.conf](Backup-config/unbound-dns.conf)
-- [config-99dice.lua](Backup-config/myconfig-999dice.lua)
