@@ -17,3 +17,4 @@ Tempat Corat-Corett data biar gak lupa
 - [Iframe Full Page](Corat-Coret/2021-06-30-iframe-full-page.md)
 - [Deploying docker container Nginx and Jekyll to Heroku](Corat-Coret/2021-07-04-Deploying-docker-container-Nginx-and-Jekyll-to-Heroku.md)
 - [Nginx Reverse Proxy on Heroku](Corat-Coret/2021-07-04-Nginx-Reverse-Proxy-on-Heroku.md)
+- [GitHub page Enforcing Https](Corat-Coret/2021-07-21-GitHub-page-Enforcing-Https.md)
